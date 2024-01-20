@@ -1,6 +1,6 @@
 name: stonks_date_picker
 description: A Flutter package of cupertino style date picker which is very customizable
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/created-by-varun/flutter-stonks_date_picker
 
 environment:
