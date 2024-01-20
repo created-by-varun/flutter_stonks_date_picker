@@ -206,7 +206,7 @@ class _DatePickerWidgetState extends State<DatePickerWidget> {
                 backgroundColor: widget.pickerTheme!.backgroundColor,
                 scrollController: scrollCtrl,
                 squeeze: 0.95,
-                diameterRatio: 1.5,
+                diameterRatio: 10,
                 itemExtent: widget.pickerTheme!.itemHeight,
                 onSelectedItemChanged: valueChanged,
                 looping: widget.looping,
@@ -235,7 +235,7 @@ class _DatePickerWidgetState extends State<DatePickerWidget> {
                         color: widget.pickerTheme!.dividerColor ??
                             widget.pickerTheme!.itemTextStyle.color,
                         height: 1,
-                        thickness: 2,
+                        thickness: 1,
                       ),
                     ),
                     SizedBox(width: MediaQuery.of(context).size.width * 0.02)
@@ -254,7 +254,7 @@ class _DatePickerWidgetState extends State<DatePickerWidget> {
                         color: widget.pickerTheme!.dividerColor ??
                             widget.pickerTheme!.itemTextStyle.color,
                         height: 1,
-                        thickness: 2,
+                        thickness: 1,
                       ),
                     ),
                     SizedBox(width: MediaQuery.of(context).size.width * 0.02),
